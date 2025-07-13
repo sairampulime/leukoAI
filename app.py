@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-MODEL_PATH = os.path.join("model", "leukemia_model.h5")
+MODEL_PATH = os.path.join("model", "leukemia_classifier_model.h5")
 model = load_model(MODEL_PATH)
 
 def predict_image(img_path):
