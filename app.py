@@ -31,6 +31,5 @@ def predict():
     file.save(filepath)
     result = predict_image(filepath)
     return jsonify({"prediction": result})
-'''
 with open("app.py", "w") as f:
     f.write(code)
