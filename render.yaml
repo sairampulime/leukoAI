@@ -1,0 +1,11 @@
+render_yaml = '''
+services:
+  - type: web
+    name: leukemia-api
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
+'''
+with open("render.yaml", "w") as f:
+    f.write(render_yaml)
