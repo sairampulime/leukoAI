@@ -1,0 +1,9 @@
+reqs = '''
+Flask==2.3.2
+numpy
+tensorflow
+Pillow
+gunicorn
+'''
+with open("requirements.txt", "w") as f:
+    f.write(reqs)
