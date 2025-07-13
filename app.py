@@ -20,7 +20,7 @@ def predict_image(img_path):
 
 @app.route("/")
 def home():
-    return "✅ Leukemia Model API is Running!"
+    return "Leukemia Model API is Running!"
 
 @app.route("/predict", methods=["POST"])
 def predict():
