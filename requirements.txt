@@ -1,9 +1,5 @@
-reqs = '''
 Flask==2.3.2
 numpy
-tensorflow
+tensorflow==2.13.0
 Pillow
 gunicorn
-'''
-with open("requirements.txt", "w") as f:
-    f.write(reqs)
